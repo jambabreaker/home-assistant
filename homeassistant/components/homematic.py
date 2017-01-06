@@ -65,7 +65,7 @@ HM_DEVICE_TYPES = {
     DISCOVER_CLIMATE: [
         'Thermostat', 'ThermostatWall', 'MAXThermostat', 'ThermostatWall2'],
     DISCOVER_BINARY_SENSORS: [
-        'ShutterContact', 'Smoke', 'SmokeV2', 'Motion', 'MotionV2',
+        'ShutterContact', 'WiredShutterContact', 'Smoke', 'SmokeV2', 'Motion', 'MotionV2',
         'RemoteMotion', 'WeatherSensor', 'TiltSensor', 'IPShutterContact'],
     DISCOVER_COVER: ['Blind', 'KeyBlind']
 }
