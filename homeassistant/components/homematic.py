@@ -461,7 +461,7 @@ def _get_devices(hass, device_type, keys, proxy):
                 _LOGGER.debug("Handling %s: %s", param, channels)
                 for channel in channels:
                     name = _create_ha_name(
-                        name=device.NAME,
+                        name=device.CHANNELS[channel].NAME,
                         channel=channel,
                         param=param,
                         count=len(channels)
